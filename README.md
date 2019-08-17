@@ -3,10 +3,9 @@
 The dataset contains all paper titles, authors and their affiliations from the
 years
 
-- ICML: 2017-2018
-- NIPS: 2016-2018
-- ICLR: 2018
+- ICML: 2017-2019
+- NIPS: 2006-2018
+- ICLR: 2018-2019
 
-For NIPS you could in theory scrape the data since 2006 because that is when
-they introduced their current web interface but for the other two that is all
-this scraping script can do.
+The earliest years are always the years in which the respective conference
+introduced the web interface which this script is compatible with.
