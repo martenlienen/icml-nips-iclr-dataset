@@ -1,0 +1,5 @@
+aiohttp[speedups]
+beautifulsoup4
+lxml
+pandas
+tqdm
