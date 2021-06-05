@@ -10,6 +10,15 @@ years
 The earliest years are always the years in which the respective conference
 introduced the web interface which this script is compatible with.
 
+```csv
+Conference,Year,Title,Author,Affiliation
+NeurIPS,2006,Attentional Processing on a Spike-Based VLSI Neural Network,Yingxue Wang,"Swiss Federal Institute of Technology, Zurich"
+NeurIPS,2006,Attentional Processing on a Spike-Based VLSI Neural Network,Rodney J Douglas,Institute of Neuroinformatics
+NeurIPS,2006,Attentional Processing on a Spike-Based VLSI Neural Network,Shih-Chii Liu,"Institute for Neuroinformatics, University of Zurich and ETH Zurich"
+NeurIPS,2006,Multi-Task Feature Learning,Andreas Argyriou,Ecole Centrale de Paris
+# ...
+```
+
 ## Update the Data
 
 The first and definitely correct option is to just re-scrape the whole dataset as in the
