@@ -5,7 +5,7 @@ years
 
 - ICML: 2017-2020
 - NeurIPS: 2006-2020
-- ICLR: 2018-2021
+- ICLR: 2018-2021 (except 2020)
 
 The earliest years are always the years in which the respective conference
 introduced the web interface which this script is compatible with.
@@ -18,6 +18,12 @@ NeurIPS,2006,Attentional Processing on a Spike-Based VLSI Neural Network,Shih-Ch
 NeurIPS,2006,Multi-Task Feature Learning,Andreas Argyriou,Ecole Centrale de Paris
 # ...
 ```
+
+In 2020 the corona virus spread over the world and forced the conferences to adopt a new
+virtual format. ICLR decided to announce the conference schedule via a separate page for
+just this one year. For 2021 their schedule includes poster sessions for all papers again
+as usual. This alternate schedule page is not covered by the scraping script which is why
+there are no papers for ICLR2020.
 
 ## Update the Data
 
