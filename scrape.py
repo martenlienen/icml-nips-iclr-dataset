@@ -48,7 +48,7 @@ async def load_doc_from_url(session: aiohttp.ClientSession, url: str):
 
 async def load_paper_ids(session: aiohttp.ClientSession, url):
     doc = await load_doc_from_url(session, url)
-    cards = doc.select(".maincard.Poster")
+    cards = doc.select(".maincard.poster")
 
     return [c.attrs["id"][9:] for c in cards]
 
