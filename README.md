@@ -3,9 +3,9 @@
 The dataset contains all paper titles, authors and their affiliations from the
 years
 
-- ICML: 2017-2020
-- NeurIPS: 2006-2020
-- ICLR: 2018-2021 (except 2020)
+- ICML: 2017-2023
+- NeurIPS: 2006-2022
+- ICLR: 2018-2023 (except 2020)
 
 The earliest years are always the years in which the respective conference
 introduced the web interface which this script is compatible with.
@@ -27,7 +27,7 @@ there are no papers for ICLR2020.
 
 ## Update the Data
 
-The first and definitely correct option is to just re-scrape the whole dataset as in the
+The first and definitely correct option is to re-scrape the whole dataset as in the
 following example.
 ```sh
 python scrape.py 2006-2021
