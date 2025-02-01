@@ -184,7 +184,7 @@ async def main():
     df = df.sort_values(by="Year", kind="mergesort")
 
     # Fix multiple spaces in author names
-    df["Author"] = df["Author"].replace("\s+", " ", regex=True)
+    df["Author"] = df["Author"].replace(r"\s+", " ", regex=True)
 
     df.to_csv(output, index=False)
 
